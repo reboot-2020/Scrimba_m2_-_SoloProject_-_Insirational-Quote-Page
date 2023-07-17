@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-image: url("images/nature.jpg");
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.quote-wrapper {
+    justify-content: center;
+    align-items: center;
+    background: white;
+    max-width: 375px;
+    padding: 30px;
+}
+
+.quote-wrapper:hover {
+    background: lightpink;
+}
+
+.quote-title {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 00px;
+}
+
+.quote-author {
+    font-size: 18px;
+    margin: 10px auto 0 0;
+    text-align: right;
+}
